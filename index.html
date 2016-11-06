@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Made by Hafdal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@MadeByHafdal">
+    <meta name="twitter:creator" content="@MadeByHafdal">
+    <meta name="twitter:title" property="og:title" content="Made by Hafdal">
+    <meta name="twitter:description" property="og:description" content="Made by Hafdal is the place where Gunnar Þór Hafdal does his weird sideprojects">
+    <meta property="og:url" content="http://madebyhafdal.com" />
+
+    <script type="text/javascript">
+      /*! modernizr 3.3.1 (Custom Build) | MIT *
+       * http://modernizr.com/download/?-touchevents-setclasses !*/
+      !function(e,n,t){function o(e,n){return typeof e===n}function s(){var e,n,t,s,a,i,r;for(var l in c)if(c.hasOwnProperty(l)){if(e=[],n=c[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(s=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],r=i.split("."),1===r.length?Modernizr[r[0]]=s:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=s),f.push((s?"":"no-")+r.join("-"))}}function a(e){var n=u.className,t=Modernizr._config.classPrefix||"";if(p&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(o,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),p?u.className.baseVal=n:u.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):p?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function r(){var e=n.body;return e||(e=i(p?"svg":"body"),e.fake=!0),e}function l(e,t,o,s){var a,l,f,c,d="modernizr",p=i("div"),h=r();if(parseInt(o,10))for(;o--;)f=i("div"),f.id=s?s[o]:d+(o+1),p.appendChild(f);return a=i("style"),a.type="text/css",a.id="s"+d,(h.fake?h:p).appendChild(a),h.appendChild(p),a.styleSheet?a.styleSheet.cssText=e:a.appendChild(n.createTextNode(e)),p.id=d,h.fake&&(h.style.background="",h.style.overflow="hidden",c=u.style.overflow,u.style.overflow="hidden",u.appendChild(h)),l=t(p,e),h.fake?(h.parentNode.removeChild(h),u.style.overflow=c,u.offsetHeight):p.parentNode.removeChild(p),!!l}var f=[],c=[],d={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){c.push({name:e,fn:n,options:t})},addAsyncTest:function(e){c.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=d,Modernizr=new Modernizr;var u=n.documentElement,p="svg"===u.nodeName.toLowerCase(),h=d._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];d._prefixes=h;var m=d.testStyles=l;Modernizr.addTest("touchevents",function(){var t;if("ontouchstart"in e||e.DocumentTouch&&n instanceof DocumentTouch)t=!0;else{var o=["@media (",h.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");m(o,function(e){t=9===e.offsetTop})}return t}),s(),a(f),delete d.addTest,delete d.addAsyncTest;for(var v=0;v<Modernizr._q.length;v++)Modernizr._q[v]();e.Modernizr=Modernizr}(window,document);
+    </script>
+
+    <style>
+      @-webkit-viewport{width:device-width}
+      @-moz-viewport{width:device-width}
+      @-ms-viewport{width:device-width}
+      @-o-viewport{width:device-width}
+      @viewport{width:device-width}
+      ::-moz-selection {
+        background: #5a36ff;
+        color: #fff;
+        text-shadow: none;
+      }
+      ::selection {
+        background: #5a36ff;
+        color: #fff;
+        text-shadow: none;
+      }
+      body {
+        font-family: Courier,monospace;
+        margin: 2em auto;
+        background-color: #fff;
+        color: #333;
+        max-width: 46em;
+        font-size: 1.6em;
+        padding: 0 1em;
+      }
+      
+      h3 {
+        margin: 1em 0 0 0;
+      }
+
+      h3 + p {
+        margin-top: 0;
+      }
+
+      .title {
+        color: #5a36ff;
+        text-shadow:
+          1px 1px 0px #e69019,
+          2px 2px 0px #e99c32,
+          3px 3px 0px #eca84c,
+          4px 4px 0px #eeb566;
+      }
+
+      a {
+        color: #5a36ff;
+        transition-delay: 50ms;
+        transition-duration: 100ms;
+        transition-property: text-shadow;
+      }
+      .no-touchevents a:hover {
+        text-shadow:
+          1px 1px 0px #e69019,
+          2px 2px 0px #e99c32,
+          3px 3px 0px #eca84c,
+          4px 4px 0px #eeb566;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Made by Hafdal</h1>
+    </header>
+    <main>
+      <section id="projects">
+        <h2>Projects</h2>
+        <article>
+          <h3 id="selfie">Selfie</h3>
+          <p>
+            Year: 2016<br>
+            What: An iOS application that allows you to quickly upload a selfie to Tumblr.<br>
+            Where: Check out <a href="https://gunnarhafdal.com/selfie">gunnarhafdal.com/selfie</a> to download the app
+          </p>
+        </article>
+
+        <article>
+          <h3 id="oggunner">OGGUNNER</h3>
+          <p>
+            Years: 2015&ndash;<br>
+            What: A project or whatever where I sometimes post unedited selfies.<br>
+            Where: Go to <a href="http://oggunner.photo/">oggunner.photo</a> to see the selfies.
+          </p>
+        </article>
+
+        <article>
+          <h3 id="knaldemand">Knaldemand</h3>
+          <p>
+            Years: 2011&ndash;<br>
+            What: An ongoing art project about a horse that woke up one day with a human male body and its troubles. I'm working on this project with my friend and photographer <a href="http://www.gislidua.com">Gísli Dúa</a>.<br>
+            Where: Visit <a href="http://knaldemand.dk">knaldemand.dk</a> to see&hellip;
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
+
