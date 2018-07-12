@@ -49,3 +49,11 @@ a:hover {
 .howmuch .pgone {
   height: 512px; 
 }
+
+.howmuch h1 {
+  font-weight: 900;
+}
+
+.howmuch h2 {
+  font-weight: 800;
+}
